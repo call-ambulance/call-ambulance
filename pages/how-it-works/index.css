@@ -1,5 +1,20 @@
+body {
+  margin: 0;
+}
+nav {
+  position: fixed;
+  z-index: 999;
+  border: 1px solid orange;
+  background-color: white;
+}
+
+nav img {
+  width: 30%;
+}
+
 main {
-  margin-top: 150px;
+  margin-top: 50px;
+  padding-top: 100px;
   border: 1px solid black;
 }
 
