@@ -1,0 +1,9 @@
+.book-ambulance {
+  text-align: center;
+  margin: auto;
+  width: 400px;
+}
+
+.book-ambulance form {
+  margin-bottom: 20px;
+}
