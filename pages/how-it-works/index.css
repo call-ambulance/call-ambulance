@@ -3,6 +3,7 @@ body {
 }
 
 nav {
+  top: 0;
   position: fixed;
   z-index: 2;
   border: 1px solid orange;
@@ -19,21 +20,36 @@ nav li {
   padding: 30px;
 }
 
+.floating-phone {
+  position: fixed;
+  width: 180px;
+  left: 1000px;
+  top: 249px;
+}
+
 main {
-  padding-top: 150px;
-  border: 1px solid black;
+  margin-top: 150px;
+  /* border: 1px solid black; */
   z-index: -1;
 }
 
 .content-box {
-  border: 1px solid pink;
-  padding: 10px;
+  margin: auto;
+  width: 100%;
+  box-shadow: 0px 0px 30px 0px rgba(148, 146, 245, 0.2);
+  border-radius: 5px;
+}
+
+.content {
+  margin: auto;
+  width: 70%;
 }
 
 h1 {
   text-align: center;
   font-family: "Lato", sans-serif;
   font-size: 2em;
+  font-weight: bold;
   border: 1px solid orange;
 }
 
@@ -45,6 +61,7 @@ h1 {
   display: inline;
   padding-right: 30px;
 }
+
 .download-icons img {
   width: 200px;
   height: 70px;
