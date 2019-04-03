@@ -11,3 +11,12 @@ main {
 h1 {
   text-align: center;
 }
+
+.download-icons li {
+  display: inline;
+  padding-right: 30px;
+}
+.download-icons img {
+  width: 200px;
+  height: 70px;
+}
