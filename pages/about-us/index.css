@@ -83,6 +83,10 @@ html {
     margin: auto; 
 }
 
+.meetteam-content h1 {
+    text-align: center; 
+}
+
 .team-column {
     float: left; 
     width: 33.3%; 
