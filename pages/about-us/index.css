@@ -1,3 +1,4 @@
+/* navigation */
 body {
   margin: 0px;
   font-family: -apple-system,
@@ -17,7 +18,11 @@ body {
 
 /* navigation */
 nav {
+  top: 0;
+  position: fixed;
+  z-index: 2;
   background-color: white;
+  height: 100px;
 }
 
 nav img {
