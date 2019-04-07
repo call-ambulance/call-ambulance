@@ -50,7 +50,7 @@ main {
   margin-bottom: 40px;
   width: 100%;
   box-shadow: 0px 0px 30px 0px rgba(148, 146, 245, 0.2);
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 .content {
