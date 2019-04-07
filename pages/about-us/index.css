@@ -1,3 +1,4 @@
+/* navigation */
 nav {
     top: 0;
     position: fixed;
@@ -40,12 +41,17 @@ html {
 
 .about-us-content {
     background-color: #ffffff; 
-    padding: 40px;
+    padding: 100px 120px;
 }
 
 .about-us-content h1 {
     text-align: center; 
 }
+
+.about-us-content p {
+    padding: 0px 100px;
+}
+
 .about-us-content btn {
     justify-content: center; 
 }
@@ -71,6 +77,12 @@ html {
 }
 
 /* meet the team */
+
+.meetteam-content {
+    width: 90%; 
+    margin: auto; 
+}
+
 .team-column {
     float: left; 
     width: 33.3%; 
