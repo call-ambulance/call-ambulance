@@ -1,0 +1,169 @@
+html {
+    box-sizing: border-box;
+}
+
+/* about-us */
+.about-us-container {
+    padding: 3rem; 
+    margin-right: auto; 
+    margin-left: auto; 
+    background-color: #f5f7fa;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-us-container p {
+    font-size: 18px; 
+
+}
+
+.about-us-content {
+    background-color: #ffffff; 
+    padding: 40px;
+}
+
+.about-us-content h1 {
+    text-align: center; 
+}
+.about-us-content btn {
+    justify-content: center; 
+}
+
+.btn-primary {
+    text-align: center; 
+    justify-content: center; 
+}
+
+.bg-grey {
+    background-color: #f5f7fa; 
+}
+
+.logo {
+    font-size: 200px; 
+}
+
+@media screen and (max-width: 768px){
+    .col-sm-4 {
+        text-align: center; 
+        margin: 25px 0;
+    } 
+}
+
+/* meet the team */
+.team-column {
+    float: left; 
+    width: 33.3%; 
+    margin-bottom: 16px; 
+    padding: 0 8px; 
+}
+
+*, *::before, *:after {
+    box-sizing: inherit; 
+}
+
+@media screen and (max-width: 650px){
+    .team-column {
+        width: 100%;
+        display:block; 
+    }
+}
+
+.team-card {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}    
+
+.team-container {
+    padding: 0 30px; 
+}
+
+.team-container::after, .team-row::after {
+    content: "";
+    clear: both; 
+    display: table; 
+}
+
+.team-title {
+    color: grey;
+}
+
+.team-button {
+    text-align: center;
+    cursor: pointer; 
+}
+
+
+/* contact us */
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+
+input[type=submit] {
+    background-color: #e74039;
+    color: white; 
+    padding: 12px 20px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+input[type=submit]:hover {
+    background-color: #be1510; 
+}
+
+.contactus-container {
+    padding: 20px;
+
+}
+
+.contactus-column {
+    float: left; 
+    width: 50%;
+    margin-top: 6px; 
+    padding: 20px; 
+}
+
+.contactus-row:after {
+    content: "";
+    display: table; 
+    clear: both; 
+}
+
+@media screen and (max-width: 600px){
+    .contactus-column, input[type=submit] {
+        width: 100%; 
+        margin-top: 0;
+    }
+}
+
+
+/* location */
+.map-container-6 {
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height:0;
+}
+
+.map-container-6 iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width: 100%;
+    position:absolute;
+}

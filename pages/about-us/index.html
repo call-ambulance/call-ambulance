@@ -4,7 +4,133 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>About Us</title>
   </head>
-  <body></body>
+  <body>
+  
+    <div class="container-fluid about-us-container">
+      <div class="row">
+        <div class="col-sm-8 about-us-content">
+
+          <h1>About Company Page</h1>
+          <p>GO-BULANCE is a mobile application to call ambulance with just one click of a button. GO-BULANCE connects emergency healthcare provider with patients. 
+              The algorithm in GO-BULANCE matches the distance of a patients needing medical asistance with a hospital care that are nearest to them. 
+              The time to transfer patients to the nearest hospital during critical conditions can be the difference between life and death. 
+              Some of the challanges we face in Indonesia related to emergency service includes blackmailing, unavailability for the hospital to provide 
+              ambulance services instantly. 
+          </p>
+        </div>
+        <div>
+          <span class="company-logo"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-grey about-us-container">
+      <div class="row">
+        <div class="col-sm-4">
+          <span class="another-logo"></span>
+        </div>
+
+        <div class="col-sm-8 about-us-content">
+          <h1>Our Values</h1>
+          <p><strong>Mission: </strong>GO-BULANCE mission is to provide exellent and quick medical care through ambulance service app. GO-BULANCE is the pioneer for ambulance service app in Indonesia. GO-BULANCE strive to improve medical care facilities through its innovation in information technology. We hope that we can contribute to improve the health, safety, and the quality of medical care service for Indonesia. </p>
+          <p><strong>Vision: </strong>The vision at GO-BULANCE is drive excellence in healthcare service.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-grey about-us-container">
+        <div class="row">
+          <div class="col-sm-5">
+            <span class="another-logo"></span>
+          </div>
+  
+          <div class="col-sm-8 about-us-content">
+            <h1>Meet the Team</h1>
+            <div class="row team-row">
+              <div class="column team-column">
+                <div class="card team-card">
+                  <img src="../../images/yoda-team.jpg" alt="yoda-team" style="width:100%">
+                  <div class="container team-container">
+                    <h3>Master Yoda</h3>
+                    <p class="title team-title">Cofounder & CEO</p>
+                    <p>Meet master Yoda, former senior doctor at Star Wars Hospital. He is the hustler for GO-BULANCE.</p>
+                    <p>"The greatest teacher, failure is"</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="column team-column">
+                <div class="card team-card">
+                  <img src="../../images/luke-team.jpg" alt="luke-team" style="width:100%">
+                  <div class="container team-container">
+                    <h3>Luke Skywalker</h3>
+                    <p class="title team-title">Cofounder & CTO</p>
+                    <p>Luke Skywalker is a former pilot. He joined ImpactByte coding bootcamp in 2019, now turned into full stack developer. He is the hacker for GO-BULANCE.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column team-column">
+                <div class="card team-card">
+                  <img src="../../images/obiwan-team.jpg" alt="obiwan-team" style="width:100%">
+                  <div class="container team-container">
+                    <h3>Obi-Wan</h3>
+                    <p class="title team-title">Chief Design Officer</p>
+                    <p>Obi Wan is all about art and design. He does most of his design through the force. He is the hipster for GO-BULANCE.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container-fluid bg-grey contactus--container">
+          <div class="row">
+            <div class="col-sm-6">
+              <span class="another-logo"></span>
+            </div>
+    
+            <div class="col-sm-8 about-us-content">
+              <div class="container contactus-container">
+                <div style="text-align:center">
+                  <h1>Contact us</h1>
+                  <p>Stop by for a coffee</p>
+                </div>
+                <div class="row contactus-row">
+                  <div class="column contactus-column">
+                    <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 150px">
+                      <iframe src="https://maps.google.com/maps?q=impactbyte%20jakarta&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen>
+                      </iframe>
+                    </div>
+                    <p>ImpactByte Jakarta</p>
+                    <p> +62 000-0000 0000</p>
+                    <p>Mon-Fri, 9:00-17:00</p>
+                    <p>info@gmail.com</p>
+                  </div>
+
+                  <div class="column contactus-column">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label> 
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Your email..">
+                      <label for="subject">Subject</label>
+                      <input type="text" id="subject" name="subject" placeholder="Subject">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" placeholder="Write your message..." style="height:200px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  </body>
 </html>
