@@ -7,3 +7,23 @@
 .book-ambulance form {
   margin-bottom: 20px;
 }
+
+nav {
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  /* border: 1px solid orange; */
+  background-color: white;
+  height: 100px;
+}
+
+nav img {
+  margin-top: 15px;
+  margin-left: 100px;
+  width: 200px;
+  height: 70px;
+}
+
+nav li {
+  padding: 30px;
+}
