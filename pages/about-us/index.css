@@ -24,6 +24,7 @@ main {
 h1 {
   text-align: center;
 }
+
 .about-us-container {
   margin: 100px auto;
   font-family: "Lato", sans-serif;
@@ -171,6 +172,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 600px) {
+
   .contactus-column,
   input[type="text"] {
     width: 100%;
@@ -179,6 +181,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 600px) {
+
   .contactus-column,
   input[type="email"] {
     width: 100%;
@@ -187,6 +190,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 600px) {
+
   .contactus-column,
   input[type="submit"] {
     width: 100%;
@@ -195,17 +199,63 @@ input[type="submit"]:hover {
 }
 
 /* location */
-.map-container-6 {
+.city {
   overflow: hidden;
   padding-bottom: 100%;
   position: relative;
   height: 0;
 }
 
-.map-container-6 iframe {
+.city iframe {
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+footer {
+  background-color: #333333;
+  color: #cfcfcf;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer div {
+  margin: 0px 50px;
+  text-align: left;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer div li i {
+  margin-right: 10px;
+  width: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer p {
+  margin: 0px;
+}
+
+.google-maps {
+  margin-left: 0px;
 }

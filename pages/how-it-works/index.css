@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+section {
+  padding: 50px 0px;
+}
+
 nav {
   top: 0;
   position: fixed;
@@ -22,12 +26,6 @@ nav li {
   padding: 30px;
 }
 
-.floating-phone {
-  position: fixed;
-  width: 180px;
-  left: 1000px;
-  top: 260px;
-}
 
 main {
   margin-top: 150px;
@@ -55,7 +53,7 @@ h1 {
   font-family: "Lato", sans-serif;
   font-size: 2em;
   font-weight: bold;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   padding: 50px auto;
 }
 
@@ -67,4 +65,50 @@ h1 {
 .download-icons img {
   width: 200px;
   height: 70px;
+}
+
+footer {
+  background-color: #333333;
+  color: #cfcfcf;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer div {
+  margin: 0px 50px;
+  text-align: left;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer div li i {
+  margin-right: 10px;
+  width: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer p {
+  margin: 0px;
+}
+
+.google-maps {
+  margin-left: 0px;
 }
