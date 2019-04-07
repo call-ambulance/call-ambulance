@@ -27,9 +27,9 @@ html {
 .about-us-container {
   padding: 3rem;
   margin: 100px auto;
-  background-color: #f5f7fa;
+  /* background-color: #f5f7fa; */
   font-family: "Lato", sans-serif;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .about-us-container p {
@@ -169,6 +169,10 @@ input[type="submit"]:hover {
 
 .contactus-container {
   padding: 20px;
+}
+
+.container-fluid {
+  margin: 0px;
 }
 
 .contactus-column {
