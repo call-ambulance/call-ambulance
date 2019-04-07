@@ -18,7 +18,7 @@ html {
 
 /* about-us */
 .about-us-container {
-  padding: 3rem;
+  /* padding: 3rem; */
   margin: 100px auto;
   /* background-color: #f5f7fa; */
   font-family: "Lato", sans-serif;
@@ -31,20 +31,16 @@ html {
 
 .about-us-content {
   background-color: #ffffff;
-  padding: 100px 120px;
+  padding: 100px 0px;
 }
 
-.about-us-content h1 {
+/* .about-us-content h1 {
   text-align: center;
-}
+} */
 
-.about-us-content p {
+/* .about-us-content p {
   padding: 0px 100px;
-}
-
-.about-us-content btn {
-  justify-content: center;
-}
+} */
 
 .btn-primary {
   text-align: center;
@@ -59,12 +55,12 @@ html {
   font-size: 200px;
 }
 
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
+/* @media screen and (max-width: 768px) {
+  .about-us-content {
     text-align: center;
     margin: 25px 0;
   }
-}
+} */
 
 /* meet the team */
 
@@ -126,6 +122,11 @@ html {
   box-sizing: border-box;
 }
 
+.contactus-column {
+  padding: 0px 100px; 
+}
+
+
 input[type="text"],
 select,
 textarea {
@@ -161,7 +162,7 @@ input[type="submit"]:hover {
 }
 
 .contactus-container {
-  padding: 20px;
+  padding: 100px;
 }
 
 .container-fluid {
@@ -179,6 +180,22 @@ input[type="submit"]:hover {
   content: "";
   display: table;
   clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .contactus-column,
+  input[type="text"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactus-column,
+  input[type="email"] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
