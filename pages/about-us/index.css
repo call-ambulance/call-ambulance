@@ -17,12 +17,17 @@ html {
 }
 
 /* about-us */
+main {
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
 .about-us-container {
-  /* padding: 3rem; */
   margin: 100px auto;
-  /* background-color: #f5f7fa; */
   font-family: "Lato", sans-serif;
-  /* text-align: center; */
+  padding: 100px auto;
 }
 
 .about-us-container p {
@@ -33,14 +38,6 @@ html {
   background-color: #ffffff;
   padding: 100px 0px;
 }
-
-/* .about-us-content h1 {
-  text-align: center;
-} */
-
-/* .about-us-content p {
-  padding: 0px 100px;
-} */
 
 .btn-primary {
   text-align: center;
@@ -55,15 +52,7 @@ html {
   font-size: 200px;
 }
 
-/* @media screen and (max-width: 768px) {
-  .about-us-content {
-    text-align: center;
-    margin: 25px 0;
-  }
-} */
-
 /* meet the team */
-
 .meetteam-content {
   width: 90%;
   margin: auto;
@@ -123,9 +112,8 @@ html {
 }
 
 .contactus-column {
-  padding: 0px 100px; 
+  padding: 0px 100px;
 }
-
 
 input[type="text"],
 select,
