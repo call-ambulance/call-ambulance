@@ -27,3 +27,11 @@ nav img {
 nav li {
   padding: 30px;
 }
+
+.container {
+  text-align: center;
+}
+
+.container img {
+  width: 100px;
+}
