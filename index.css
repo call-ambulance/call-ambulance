@@ -28,8 +28,19 @@ nav li {
   padding: 30px;
 }
 
+.record {
+  margin: 0px;
+  padding: 50px 0px;
+  width: 100%;
+  background-color: #f5f7fa;
+}
+
 .container {
   text-align: center;
+}
+
+.container .row {
+  margin-bottom: 20px;
 }
 
 .container img {
