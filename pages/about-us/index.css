@@ -21,6 +21,8 @@ nav {
 }
 
 nav img {
+  margin-top: 15px;
+  margin-left: 100px;
   width: 200px;
   height: 70px;
 }
